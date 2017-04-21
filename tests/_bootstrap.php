@@ -1,0 +1,10 @@
+<?php
+defined('YII_ENV') or define('YII_ENV', 'test');
+defined('YII_DEBUG') or define('YII_DEBUG', true);
+
+
+require_once __DIR__ . '/../../../../vendor/autoload.php';
+require_once __DIR__ . '/../../../../vendor/yiisoft/yii2/Yii.php';
+
+Yii::setAlias('@choateunit/yii/captcha', __DIR__);
+Yii::setAlias('@choate/yii/captcha', dirname(__DIR__) . '/src');

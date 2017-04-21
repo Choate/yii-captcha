@@ -1,0 +1,21 @@
+{
+  "name": "choate/yii-captcha",
+  "description": "Yii2 extension captcha",
+  "type": "libaray",
+  "license": "BSD",
+  "authors": [
+    {
+      "name": "Choate",
+      "email": "choate.yao@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "yiisoft/yii2": ">=2.0.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "choate\\yii\\captcha\\": "src/",
+    }
+  }
+}
