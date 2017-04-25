@@ -1,7 +1,7 @@
 {
   "name": "choate/yii-captcha",
   "description": "Yii2 extension captcha",
-  "type": "libaray",
+  "type": "library",
   "license": "BSD",
   "authors": [
     {
